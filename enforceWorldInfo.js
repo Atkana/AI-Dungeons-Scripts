@@ -1,7 +1,7 @@
 // Provides a custom memory context solution that allows World Info entries to be triggered via text in the pin section / other World Info, as well as configuring how much of the context can be memory vs actual gameplay
 
 /* WHAT THIS DOES:
-- More World Info is added: Key matches in pinned info and world info will also trigger world info being included, unlike in regular play where only occurrences in the game info.
+- More World Info is added: Key matches in pinned info and world info will also trigger world info being included, unlike in regular play where only occurrences in the game info trigger it.
 - Configurable priority: Usually, World Info takes the backseat in memory-related stuff, being the first to be cut off.
 - Configurable memory size: Allow extra info to take up more / less of the whole context than normal. The game's defaults are 3,000 characters for the context, with a ~1470 character portion of that being reserved for extra info.
 */

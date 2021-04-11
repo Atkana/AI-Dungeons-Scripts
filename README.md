@@ -19,6 +19,9 @@ Code snippet for extracting information from a character's World Info entry for 
 Provides Scenario Scripts for creating an instruction manual Scenario for players in cases where a 2,000 character limit prompt isn't enough to explain everything (though seriously - how complicated are you making this stuff that you need so much text!? o_o).
 Instructions are included in the comments on how to set up + use it.
 
+## promptInputExtractor
+Adds the ability to use the what the player writes for custom input prompts (the things contained inside `${}`s) inside your starting World Info. A guide on how to use it is included in the comments at the top of the code.
+
 ## pronoun
 Code snippet to help script-generated text use the correct gendered terms based on the character. In addition to a simple translation function that turns neutral words into the gendered form based on the provided gender, it also provides a method of extracting the character's pronoun from their World Info entry, provided they have an appropriately-formatted `PRONOUN` entry.
 
