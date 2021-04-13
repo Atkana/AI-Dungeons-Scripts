@@ -32,3 +32,8 @@ For best results:
 - Make sure to use the edit options to guide the AI when it's working.
 - Try to only generate a single character per adventure.
 - Edit the starting prompt to end with the start of the first field you want to include.
+
+## zaltysFormatter
+A tool I made for building + formatting characters into Zaltys format. It uses user-entered commands to build up a character, then outputs the character's world info in 3 different formats: standard, Zaltys, and Snek. It can also be provided with an existing standard format character for direct translation into Zaltys.
+
+For a scenario using this script, see: https://play.aidungeon.io/main/scenarioView?publicId=524ba8b0-9c57-11eb-aaa3-81c9ae780d5a
