@@ -2,6 +2,9 @@ This is a collection of my scripts for AI Dungeon, ranging from full Scenario sc
 
 Most of the more fleshed out scripts include a `tuning` object which you can edit to configure how they work.
 
+## commandProcessor
+A basic add-in to help with running and adding commands. You define functions to be run when a given command is input, and the script handles detecting when a player inputs them and running them. There's some suggestions about how to handle returning values, though you'll have to change things up to suit your needs.
+
 ## enforceWorldInfo
 A custom re-implementation of the regular memory context, allowing you to configure how the memory is handled more. Features include:
 - The ability to change what proportion of the context given to the AI is made up of memory vs game text. Normally, the game will limit memory to ~1500 characters.
