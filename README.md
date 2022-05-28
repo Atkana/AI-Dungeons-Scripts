@@ -36,6 +36,14 @@ For best results:
 - Try to only generate a single character per adventure.
 - Edit the starting prompt to end with the start of the first field you want to include.
 
+## variedRandomSelector
+Provides a method of randomly rolling results on a table while prioritising options that haven't already been picked. This variety both improves the player experience, and more importantly helps out the AI - usually if the same exactly-worded results end up in the context together, it can make the AI start to get repetitive.
+It's designed to be flexible enough to support adding or removing results to a scenario's existing options tables without breaking existing adventures.
+
+I think it goes without saying that you should store the `previousSelections` results in `state`.
+
+See the code for comments and a couple of examples of how to use it.
+
 ## zaltysFormatter
 A tool I made for building + formatting characters into Zaltys format. It uses user-entered commands to build up a character, then outputs the character's world info in 3 different formats: standard, Zaltys, and Snek. It can also be provided with an existing standard format character for direct translation into Zaltys.
 
